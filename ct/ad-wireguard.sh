@@ -6,7 +6,7 @@ source <(curl -s https://raw.githubusercontent.com/mmarszal/ProxmoxVE/refs/heads
 # Source: https://www.wireguard.com/
 
 # App Default Values
-APP="Ad-Wireguard"
+APP="ad-wireguard"
 var_tags="network;vpn;adblock"
 var_cpu="2"
 var_ram="1024"
