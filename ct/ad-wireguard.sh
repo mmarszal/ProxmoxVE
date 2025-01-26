@@ -25,7 +25,6 @@ color
 catch_errors
 
 function update_script() {
-    msg_info "Starting ad-wireguard update"
     header_info
     check_container_storage
     check_container_resources
