@@ -25,6 +25,7 @@ color
 catch_errors
 
 function update_script() {
+    msg_info "Starting ad-wireguard update"
     header_info
     check_container_storage
     check_container_resources
@@ -41,7 +42,7 @@ function update_script() {
     sleep 2
     cd /etc/wgdashboard/src
     ./wgd.sh update
-    msg_ok AdGuardHome needs to be updated in its own user interface
+    msg_info "AdGuardHome needs to be updated in its own user interface"
     exit
 }
 
